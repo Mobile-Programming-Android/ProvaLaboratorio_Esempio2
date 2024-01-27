@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         list = new ContactList(this);
 
         Button button = findViewById(R.id.inserisci);
+
         button.setOnClickListener((event) -> {
             EditText name = findViewById(R.id.nome);
             EditText surname = findViewById(R.id.cognome);
